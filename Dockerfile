@@ -1,4 +1,4 @@
-FROM golang:alpine as builder
+FROM golang:1.22.3-alpine3.20 as builder
 ENV GO111MODULE=on
 ENV CGO_ENABLED=0
 ARG TARGETOS
